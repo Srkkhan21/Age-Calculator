@@ -93,9 +93,9 @@ function calculateAge() {
   console.log(allRestDays);
 
   //RESULT
-  result.innerHTML = You are <span>${ageYear}</span> year(s) <span>${ageMonth}</span> month(s) <span>${ageDay}</span> day(s) old.;
+  result.innerHTML = `You are <span>${ageYear}</span> year(s) <span>${ageMonth}</span> month(s) <span>${ageDay}</span> day(s) old.`;
 
-  result1.innerHTML = Your next birthday 🎂 is in <span>${remainMonth}</span> month(s) and <span>${remainDays}</span> day(s).;
+  result1.innerHTML = `Your next birthday 🎂 is in <span>${remainMonth}</span> month(s) and <span>${remainDays}</span> day(s).`;
 
-  result2.innerHTML = <span>${allRestDays}</span> days left until your next birthday!;
+  result2.innerHTML = `<span>${allRestDays}</span> days left until your next birthday!`;
 }
